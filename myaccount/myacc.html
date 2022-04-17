@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyFlight</title>
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles_acc.css">
+    
+    <!--Bootstrap scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Mukta:wght@200&family=Pacifico&family=Signika+Negative:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/4ccd6b0674.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button type="button" class="btn help btn-info"><i class="fa-solid fa-phone"></i> Helpline</button>
+    <section id="title">
+        <div class="container-fluid">
+            <!-- Nav Bar
+            <nav class="navbar navbar-expand">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav >
+                    <li class="nav-item left">
+                        <a class="nav-link" href="../face/home.html"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../face/home.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../face/home.html#cta">Download</a>
+                    </li>
+                </ul>
+            </div> -->
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav >
+                    <li class="nav-item left">
+                        <a class="nav-link" href="../face/index.html"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../face/index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../face/index.html#cta">Download</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="../face/index.html">BookMyFlight</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <!-- <a class="nav-link" href=""><i class="fa-solid fa-circle-user"></i> Prasad</a> -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa-solid fa-circle-user"></i> Prasad
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" style="color: black;" href="#">Logout <i class="fa-solid fa-right-from-bracket"></i></a>
+                        </div>
+                      </div>
+                </li>
+            </ul>
+            </nav>
+
+            <div class="row">
+                <div class="col-lg-3 fix">
+                    <div class="profile">
+                        <img src="userprofile.png" alt="">
+                        <h2><strong>Prasad Jore</strong></h2>
+                        <p>PERSONAL PROFILE</p>
+                        <h3><a href="#profile-div">Profile</a></h3>
+                        <h3><a href="#login-div">Login Details</a></h3>
+                        <h3><a href="#trav-div">Add Travellers</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-9 right">
+                    <div class="profile-div" id="profile-div">
+                        <h1 style="display: inline-block;"><strong>Profile</strong></h1>
+                        <button type="button" class="btn btn-outline-primary">Edit</button>
+                        <h2>Basic info, for a faster booking experience</h2>
+                        <p>NAME               <h3><strong>Prasad Jore</strong></h3></p>
+                        <hr>
+                        <p>BIRTHDAY           <h3><a style="color: blue;" href="">+Add</a></h3></p>
+                        <hr>
+                        <p>GENDER             <h3><strong>MALE</strong></h3></p>
+                        <hr>
+                        <p>MARITAL STATUS     <h3><a style="color: blue;" href="">+Add</a></h3></p>
+                    </div>
+                    <div class="login-div" id="login-div">
+                        <h1><strong>Login Details</strong></h1>
+                        <h2>Manage your email address mobile number and password</h2>
+                        <p>MOBILE NUMBER      <h3><strong>+91-0000000000</strong></h3></p>
+                        <hr>
+                        <p>EMAIL ID           <h3><strong>prasad@jore.com</strong></h3></p>
+                        <hr>
+                        <p style="display: inline-block;">PASSWORD           <h3><strong>......</strong></h3></p>
+                        <button type="button" class="btn btn-outline-primary">Change password?</button>
+                    </div>
+                    <div class="trav-div" id="trav-div">
+                        <h1>Saved Traveller(s)</h1>
+                        <button type="button" class="btn btn-outline-primary">+ Add Traveller</button>
+                        <h2>You have 1 Traveller(s)</h2>
+                        <hr>
+                        <h3 style="display: inline-block;"><strong>Prasad Jore</strong></h3><button type="button" class="btn btn-rem btn-outline-danger">- Remove</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Footer-->
+  <section id="footer">
+      <div class="container-fluid">
+    <footer id="footer">
+        <i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-solid fa-envelope"></i>
+        <p>© Copyright 2022 BookMyFlight</p>
+    
+      </footer>
+      </div>
+  </section>  
+    
+</body>
+</html>

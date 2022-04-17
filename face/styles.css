@@ -1,0 +1,161 @@
+html{scroll-behavior:smooth}
+input
+{
+    background-color: black;
+}
+body
+{
+    text-align: center;
+}
+p
+{
+    font-family: 'Mukta', sans-serif;
+}
+h1,h2,.nav-item
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+.help
+{
+    background-color: black;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+}
+.navbar
+{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    margin: 0;
+    padding-right: 2%;
+    border-radius: 0 0 25px 25px;
+}
+.navbar a
+{
+    color: white;
+}
+.left
+{
+    width: 10px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand
+{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-align: center;
+    margin-right: 35%;
+    font-size: 2.4rem;
+
+}
+.nav-link
+{
+    font-size: 1.2rem;
+}
+.title-btn{
+    
+    background-color: black;
+    color: white;
+}
+.bg
+{
+    text-align: left;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    z-index: -1;
+    width: 91.6rem;
+    height: 100rem;
+}
+.bg-img{
+    width: 91.6rem;
+    height: 80rem;
+    object-fit: cover;
+}
+.booking
+{
+    z-index: 1;
+    color: black;
+    width: 100%;
+    padding: 15% 5%;
+    text-align: left;
+    background-color: transparent;
+    border-radius: 0 0 50px 50px;
+}
+.inBooking
+{
+    box-shadow: 10px 10px 5px black;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 2%;
+    padding: 4% 2%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+}
+.inBooking h3
+{
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+}
+.input-group
+{
+    height: 2%;
+}
+.btn-group
+{
+    padding-left: 2%;
+}
+.btn-search
+{
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 70%;
+    text-align: center;
+    width: 20%;
+}
+
+#cta
+{
+    margin-top: 5%;
+    padding: 10%;
+}
+.carousel-item img
+{
+    width: 80%;
+    border-radius: 50px;
+}
+.car-foot
+{
+    margin-top: 5px;
+}
+#about
+{
+    padding: 10% 10% 3% 10%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 0.8rem;
+    border-radius:50px 50px 50px 50px;
+}
+#footer
+{
+    padding: 2%;
+    border-radius:50px 50px 0 0;
+}
+#footer i
+{
+    padding: 2%;
+}
